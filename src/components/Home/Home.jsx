@@ -13,7 +13,7 @@ export default function Home() {
           </div>
           <h2 className={styles.subtitle}>Full Stack SWE Portfolio</h2>
         </div>
-        <img src="/IMG_2203.jpg" alt="My Pic" style={{ width: "499px" }} />
+        <img src="./IMG_2203.jpg" alt="My Pic" style={{ width: "499px" }} />
       </div>
     </div>
   );
