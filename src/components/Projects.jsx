@@ -10,26 +10,26 @@ export default function Projects() {
       set: [
         {
           title: "Full Stack X Clone",
-          image: "/xclone.jpg",
+          image: "../assets/xclone.jpg",
           link: "https://github.com/and-cuau/TwitterClone",
         },
         {
           title: "Full Stack Finance Tracker",
-          image: "/fintrackpic.jpg",
+          image: "../assets/fintrackpic.jpg",
           link: "https://github.com/and-cuau/FinanceTracker",
         },
-        { title: "Web Page Recreation #1", image: "/webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
+        { title: "Web Page Recreation #1", image: "../assets/webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
         {
           title: "Web Page Recreation #2",
-          image: "/webpagerec2.jpg",
+          image: "../assets/webpagerec2.jpg",
           link: "",
         },
         {
           title: "LAN Multiplayer Tanks",
-          image: "/tankspic2.jpg",
+          image: "../assets/tankspic2.jpg",
           link: "https://github.com/and-cuau/TankGame",
         },
-        { title: "Personal Website", image: "/personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
+        { title: "Personal Website", image: "../assets/personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
       ],
     },
     {
@@ -37,14 +37,14 @@ export default function Projects() {
       set: [
         {
           title: "AI + LAN Multiplayer TTT",
-          image: "/tttpiczoom.png",
+          image: "../assets/tttpiczoom.png",
           link: "https://github.com/and-cuau/AI-Tic-Tac-Toe",
         },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
+        { title: "", image: "../assets/placeholder.jpg" },
+        { title: "", image: "../assets/placeholder.jpg" },
+        { title: "", image: "../assets/placeholder.jpg" },
+        { title: "", image: "../assets/placeholder.jpg" },
+        { title: "", image: "../assets/placeholder.jpg" },
       ],
     },
   ];
