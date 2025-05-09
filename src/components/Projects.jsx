@@ -10,26 +10,26 @@ export default function Projects() {
       set: [
         {
           title: "Full Stack X Clone",
-          image: "/xclone.jpg",
+          image: "./xclone.jpg",
           link: "https://github.com/and-cuau/TwitterClone",
         },
         {
           title: "Full Stack Finance Tracker",
-          image: "/fintrackpic.jpg",
+          image: "./fintrackpic.jpg",
           link: "https://github.com/and-cuau/FinanceTracker",
         },
-        { title: "Web Page Recreation #1", image: "/webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
+        { title: "Web Page Recreation #1", image: "./webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
         {
           title: "Web Page Recreation #2",
-          image: "/webpagerec2.jpg",
+          image: "./webpagerec2.jpg",
           link: "",
         },
         {
           title: "LAN Multiplayer Tanks",
-          image: "/tankspic2.jpg",
+          image: "./tankspic2.jpg",
           link: "https://github.com/and-cuau/TankGame",
         },
-        { title: "Personal Website", image: "/personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
+        { title: "Personal Website", image: "./personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
       ],
     },
     {
@@ -40,11 +40,11 @@ export default function Projects() {
           image: "./tttpiczoom.png",
           link: "https://github.com/and-cuau/AI-Tic-Tac-Toe",
         },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
-        { title: "", image: "/placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
       ],
     },
   ];
@@ -70,7 +70,7 @@ export default function Projects() {
           &#8594;
         </button>
 
-        {/* <ProjectGrid set={slides[currentIndex].set}></ProjectGrid> */}
+         <ProjectGrid set={slides[currentIndex].set}></ProjectGrid> 
       </div>
     </div>
   );

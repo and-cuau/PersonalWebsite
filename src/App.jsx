@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import React from 'react';
-import './App.css'
+import './App.css';
 
 // 🟢 Change starts here
-import { HashRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link, useLocation, Navigate } from "react-router-dom";
 // 🟢 Change ends here
 
 import Home from "./components/Home/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
+
 
 // Wrapper to expose `useLocation` inside HashRouter
 function AppContent() {
