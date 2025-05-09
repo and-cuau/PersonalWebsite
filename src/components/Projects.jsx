@@ -10,26 +10,26 @@ export default function Projects() {
       set: [
         {
           title: "Full Stack X Clone",
-          image: "../assets/xclone.jpg",
+          image: "./xclone.jpg",
           link: "https://github.com/and-cuau/TwitterClone",
         },
         {
           title: "Full Stack Finance Tracker",
-          image: "../assets/fintrackpic.jpg",
+          image: "./fintrackpic.jpg",
           link: "https://github.com/and-cuau/FinanceTracker",
         },
-        { title: "Web Page Recreation #1", image: "../assets/webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
+        { title: "Web Page Recreation #1", image: "./webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
         {
           title: "Web Page Recreation #2",
-          image: "../assets/webpagerec2.jpg",
+          image: "./webpagerec2.jpg",
           link: "",
         },
         {
           title: "LAN Multiplayer Tanks",
-          image: "../assets/tankspic2.jpg",
+          image: "./tankspic2.jpg",
           link: "https://github.com/and-cuau/TankGame",
         },
-        { title: "Personal Website", image: "../assets/personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
+        { title: "Personal Website", image: "./personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
       ],
     },
     {
@@ -37,14 +37,14 @@ export default function Projects() {
       set: [
         {
           title: "AI + LAN Multiplayer TTT",
-          image: "../assets/tttpiczoom.png",
+          image: "./tttpiczoom.png",
           link: "https://github.com/and-cuau/AI-Tic-Tac-Toe",
         },
-        { title: "", image: "../assets/placeholder.jpg" },
-        { title: "", image: "../assets/placeholder.jpg" },
-        { title: "", image: "../assets/placeholder.jpg" },
-        { title: "", image: "../assets/placeholder.jpg" },
-        { title: "", image: "../assets/placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
+        { title: "", image: "./placeholder.jpg" },
       ],
     },
   ];
