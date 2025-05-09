@@ -70,7 +70,7 @@ export default function Projects() {
           &#8594;
         </button>
 
-        <ProjectGrid set={slides[currentIndex].set}></ProjectGrid>
+        {/* <ProjectGrid set={slides[currentIndex].set}></ProjectGrid> */}
       </div>
     </div>
   );
