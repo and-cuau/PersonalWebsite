@@ -19,29 +19,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.titlecard {
-  background-color: black;
-  width: 344px;
-  height: 227px;
-  position: absolute;
-  top: 89px;
-  left: -140px;
-}
 
 .imgcontainer {
   position: relative;
@@ -118,23 +95,6 @@ p {
   display: none;
 }
 
-.namecontainer {
-  /* padding: 0 30px; */
-  /* padding : 0 40px; */
-}
-
-.firstname {
-  /* margin-left: 5px; */
-  margin-bottom: 0;
-
-  /* text-align: left; */
-}
-
-.lastname {
-  margin-top: 0;
-  margin-bottom: 0;
-  /* text-align: left; */
-}
 
 h2 {
   color: white;
@@ -240,12 +200,4 @@ h2 {
   height: 40px;
   left: 0px;
   bottom: 180px;
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
 }

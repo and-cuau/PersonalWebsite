@@ -22,7 +22,7 @@ export default function AboutMe() {
       <p>
         {" "}
         Outside of tech, I’m into music—Nirvana, Beatles, and The Cure are some
-        of my favorites—and I love going to the gym and playing video games. I'm
+        of my favorites. I also love going to the gym and playing video games. I'm
         always learning and looking for new challenges that push me to grow as a
         developer and collaborator.
       </p>

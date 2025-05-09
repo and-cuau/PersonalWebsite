@@ -5,33 +5,6 @@
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .link {
   color: white;
@@ -61,11 +34,6 @@
   margin-top: 11px;
 }
 
-.namecontainer {
-  /* padding: 0 30px; */
-  /* padding : 0 40px; */
-}
-
 .firstname {
   /* i  edited margin-top. was not declared t first */
   /* margin-left: 5px; */
@@ -93,6 +61,3 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
-}
