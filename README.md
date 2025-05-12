@@ -16,9 +16,6 @@ This is a personal website designed to display my background and my projects.
 - **Challenge**: Faced difficulties fixing position of nav bar at top-center of port across different pages.
   **Solution**: Changed position style from "absolute" to "fixed".
 
-- **Challenge**: Ensuring responsive UI for both mobile and desktop views  
-  **Solution**: Used CSS Grid and Flexbox for flexible layout design.
-
 ## Future Improvements  
 - Plan to implement CSS media queries to fit pages to additional screen sizes.
 
