@@ -18,7 +18,7 @@ export default function Projects() {
           image: "./fintrackpic.jpg",
           link: "https://github.com/and-cuau/FinanceTracker",
         },
-        { title: "Web Page Recreation #1", image: "./webpagerec.jpg", link: "https://github.com/and-cuau/trend-hunt" },
+        { title: "Web Page Recreation #1", image: "./webpagerec.jpg", link: "https://github.com/and-cuau/Trend-Hunt-Web-Page-Recreation" },
         {
           title: "Web Page Recreation #2",
           image: "./webpagerec2.jpg",
