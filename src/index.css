@@ -13,7 +13,12 @@
   background:
     linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 15%),
     /* linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 15%), */
-      #d3d3d3;
+      #D6D9DC; 
+
+       /* #E1F5FE*/
+      /* #d3d3d3*/
+
+
   /* background-color:#E0E0E0; */
   /* background-color: #F2F2F2; */
 
