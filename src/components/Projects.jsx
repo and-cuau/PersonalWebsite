@@ -22,7 +22,7 @@ export default function Projects() {
         {
           title: "Web Page Recreation #2",
           image: "./webpagerec2.jpg",
-          link: "",
+          link: "https://github.com/and-cuau/SurfTwins-Web-Page-Recreation",
         },
         {
           title: "LAN Multiplayer Tanks",
