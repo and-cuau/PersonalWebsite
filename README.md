@@ -13,7 +13,7 @@ This is a personal website designed to display my background and my projects.
 - **Carousel**: Includes an interactive carousel component to showcase images or items in a sliding format, providing a visually engaging user interface.
 
 ## Challenges & Solutions  
-- **Challenge**:  Ensuring consistent top-center positioning of the navigation bar across pages.
+- **Challenge**:  Ensuring consistent top-center positioning of the navigation bar across pages.  
   **Solution**: Changed CSS positioning from "absolute" to "fixed".
 
 ## Future Improvements  
