@@ -2,9 +2,7 @@
 This is a personal website designed to display my background and my projects.
 
 ## Technologies Used  
-- **Frontend**: React, HTML, CSS, Javascript
-- **Backend**: Node.js, Express, MongoDB  
-- **Other**: JWT, Socket.io, CSS Grid, Flexbox
+- **Frontend**: React, HTML, CSS, Javascript  
 
 ## Features & Functionality  
 - **Routing**: Implements dynamic routing using React Router to navigate between different pages of the app.
