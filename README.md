@@ -13,8 +13,8 @@ This is a personal website designed to display my background and my projects.
 - **Carousel**: Includes an interactive carousel component to showcase images or items in a sliding format, providing a visually engaging user interface.
 
 ## Challenges & Solutions  
-- **Challenge**: Handling WebSocket disconnections  
-  **Solution**: Implemented automatic reconnection with exponential backoff using the `reconnect-ws` library.
+- **Challenge**: Faced difficulties fixing position of nav bar at top-center of port across different pages.
+  **Solution**: Changed position style from "absolute" to "fixed".
 
 - **Challenge**: Ensuring responsive UI for both mobile and desktop views  
   **Solution**: Used CSS Grid and Flexbox for flexible layout design.
