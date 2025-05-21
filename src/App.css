@@ -19,7 +19,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-
 .imgcontainer {
   position: relative;
 }
@@ -47,7 +46,7 @@ nav {
   /* border: 2px solid red; */
   margin-top: 11px;
 
-  display:flex;
+  display: flex;
   justify-content: flex-end;
   gap: 10px;
 }
@@ -79,8 +78,8 @@ p {
 .link {
 }
 
-.link.right{
-  margin-right:20px;
+.link.right {
+  margin-right: 20px;
 }
 
 .link.link-white {
@@ -94,7 +93,6 @@ p {
 .link.link-invisible {
   display: none;
 }
-
 
 h2 {
   color: white;
@@ -137,7 +135,7 @@ h2 {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.80);
+  background-color: rgba(0, 0, 0, 0.8);
   opacity: 0;
   transition: opacity 0.3s ease;
   display: flex;

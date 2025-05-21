@@ -8,6 +8,10 @@ export default function Projects() {
     {
       setName: "Slide 1",
       set: [
+        {title: "Full Stack X Clone",
+         image: "./missionsimpic.jpg",
+         link: "https://github.com/and-cuau/MissionSimulator"
+        },
         {
           title: "Full Stack X Clone",
           image: "./xclone.jpg",
@@ -18,18 +22,26 @@ export default function Projects() {
           image: "./fintrackpic.jpg",
           link: "https://github.com/and-cuau/FinanceTracker",
         },
-        { title: "Web Page Recreation #1", image: "./webpagerec.jpg", link: "https://github.com/and-cuau/Trend-Hunt-Web-Page-Recreation" },
         {
-          title: "Web Page Recreation #2",
-          image: "./webpagerec2.jpg",
-          link: "https://github.com/and-cuau/SurfTwins-Web-Page-Recreation",
+          title: "Web Page Recreation #1",
+          image: "./webpagerec.jpg",
+          link: "https://github.com/and-cuau/Trend-Hunt-Web-Page-Recreation",
         },
         {
           title: "LAN Multiplayer Tanks",
           image: "./tankspic2.jpg",
           link: "https://github.com/and-cuau/TankGame",
         },
-        { title: "Personal Website", image: "./personalwebsite.jpg", link: "https://github.com/and-cuau/PersonalWebsite" },
+        {
+          title: "Personal Website",
+          image: "./personalwebsite.jpg",
+          link: "https://github.com/and-cuau/PersonalWebsite",
+        },
+        {
+          title: "Web Page Recreation #2",
+          image: "./webpagerec2.jpg",
+          link: "https://github.com/and-cuau/SurfTwins-Web-Page-Recreation",
+        },
       ],
     },
     {
@@ -70,7 +82,7 @@ export default function Projects() {
           &#8594;
         </button>
 
-         <ProjectGrid set={slides[currentIndex].set}></ProjectGrid> 
+        <ProjectGrid set={slides[currentIndex].set}></ProjectGrid>
       </div>
     </div>
   );

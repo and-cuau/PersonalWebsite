@@ -2,12 +2,9 @@ import { useEffect, useRef, useState } from "react";
 
 // import "../App.css";
 export default function ProjectGrid({ set }) {
-
-
-    const handleClick = (link) => {
-        window.open(link); // opens in a new tab
-    };
-
+  const handleClick = (link) => {
+    window.open(link); // opens in a new tab
+  };
 
   return (
     <>
@@ -22,9 +19,14 @@ export default function ProjectGrid({ set }) {
           <div className="cellcard">
             <h3 className="projecttitle">{set[0].title}</h3>
           </div>
-          
+
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[0].link)}>Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[0].link)}
+            >
+              Github
+            </button>
           </div>
         </div>
 
@@ -40,7 +42,12 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[1].link)}>Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[1].link)}
+            >
+              Github
+            </button>
           </div>
         </div>
 
@@ -54,9 +61,15 @@ export default function ProjectGrid({ set }) {
           <div className="cellcard">
             <h3 className="projecttitle">{set[2].title}</h3>
           </div>
-          
+
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[2].link)}> Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[2].link)}
+            >
+              {" "}
+              Github
+            </button>
           </div>
         </div>
 
@@ -70,9 +83,14 @@ export default function ProjectGrid({ set }) {
           <div className="cellcard">
             <h3 className="projecttitle">{set[3].title}</h3>
           </div>
-          
+
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[3].link)}>Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[3].link)}
+            >
+              Github
+            </button>
           </div>
         </div>
 
@@ -84,13 +102,17 @@ export default function ProjectGrid({ set }) {
             }}
           ></div>
           <div className="cellcard">
-            <h3 className="projecttitle" >{set[4].title}</h3>
+            <h3 className="projecttitle">{set[4].title}</h3>
           </div>
-          
+
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[4].link)}>Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[4].link)}
+            >
+              Github
+            </button>
           </div>
-          
         </div>
 
         <div className="cell">
@@ -103,9 +125,14 @@ export default function ProjectGrid({ set }) {
           <div className="cellcard">
             <h3 className="projecttitle">{set[5].title}</h3>
           </div>
-          
+
           <div className="overlay">
-            <button className="overlay-text" onClick = {() => handleClick(set[5].link)}>Github</button>
+            <button
+              className="overlay-text"
+              onClick={() => handleClick(set[5].link)}
+            >
+              Github
+            </button>
           </div>
         </div>
       </div>
