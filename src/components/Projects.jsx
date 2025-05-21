@@ -38,11 +38,6 @@ export default function Projects() {
           image: "./personalwebsite.jpg",
           link: "https://github.com/and-cuau/PersonalWebsite",
         },
-        {
-          title: "Web Page Recreation #2",
-          image: "./webpagerec2.jpg",
-          link: "https://github.com/and-cuau/SurfTwins-Web-Page-Recreation",
-        },
       ],
     },
     {
@@ -53,7 +48,11 @@ export default function Projects() {
           image: "./tttpiczoom.png",
           link: "https://github.com/and-cuau/AI-Tic-Tac-Toe",
         },
-        { title: "", image: "./placeholder.jpg" },
+         {
+          title: "Web Page Recreation #2",
+          image: "./webpagerec2.jpg",
+          link: "https://github.com/and-cuau/SurfTwins-Web-Page-Recreation",
+        },
         { title: "", image: "./placeholder.jpg" },
         { title: "", image: "./placeholder.jpg" },
         { title: "", image: "./placeholder.jpg" },
