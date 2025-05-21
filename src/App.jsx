@@ -34,20 +34,21 @@ function AppContent() {
             Home
           </Link>
         </div>
-        <div className="test"></div>
-        <div className="links">
-          <Link
-            className={`link ${isWhiteLink ? "link-white" : "link-black"}`}
-            to="/aboutme"
-          >
-            About
-          </Link>
+        <div className="test">
           <Link
             className={`link right ${isWhiteLink ? "link-white" : "link-black"}`}
             to="/projects"
           >
             Projects
           </Link>
+        </div>
+        <div className="links">
+          {/* <Link
+            className={`link ${isWhiteLink ? "link-white" : "link-black"}`}
+            to="/aboutme"
+          >
+            About
+          </Link> */}
         </div>
       </nav>
 

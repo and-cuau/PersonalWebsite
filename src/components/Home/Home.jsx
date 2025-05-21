@@ -8,28 +8,42 @@ export default function Home() {
         <div className={styles.textcontainer}>
           <div className={styles.spacer}></div>
 
-          <div>
-            <h2 className={styles.skills}>Skills</h2>
+          <div className={styles.contentcontainer}>
+            <div className={styles.skillscontainer}>
+              <h2 className={styles.sectionheader}>Skills</h2>
+              <div>
+                <h3 className={styles.skills}>Languages: </h3>
+                <p className={styles.listofskills}>
+                  C++, Python, Javascript, Typescript
+                </p>
+              </div>
 
-            <h2 className={styles.skills}></h2>
-
-            <p>
-              Hi! I'm Andre and I’m a recent grad who loves building things that
-              are both useful and well-crafted. I enjoy working across the
-              stack—from designing clean, modern frontends in React or Svelte to
-              developing robust backend systems with Node.js, SQL, and
-              WebSockets.
-            </p>
-
-            <p>
-               I care about
-              writing code that’s maintainable, efficient, and actually fun to
-              work with.
-            </p>
-
+              <div className={styles.techcontainer}>
+                <h3 className={styles.skills}>Technologies: </h3>
+                <p className={styles.listofskills}>
+                  React, HTML, CSS, Node.js, Express.js, JWT, Websocket, JSON,
+                  SQLite, Git, Linux
+                </p>
+              </div>
+            </div>
            
+            <div className={styles.aboutmebody}>
+               <h2 className={styles.sectionheader}>About Me</h2>
+              <p>
+                Hi! I'm Andre and I’m a recent grad who loves building things
+                that are both useful and well-crafted. I enjoy working across
+                the stack—from designing clean, modern frontends in React or
+                Svelte to developing robust backend systems with Node.js, SQL,
+                and WebSockets.
+              </p>
 
-            <p>Thanks for stopping by!</p>
+              <p>
+                I care about writing code that’s maintainable, efficient, and
+                actually fun to work with.
+              </p>
+
+              <p>Thanks for stopping by!</p>
+            </div>
           </div>
         </div>
         <div className={styles.imgcontainer}>

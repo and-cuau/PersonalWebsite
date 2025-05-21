@@ -8,9 +8,10 @@ export default function Projects() {
     {
       setName: "Slide 1",
       set: [
-        {title: "Full Stack Mission Simulator",
-         image: "./missionsimpic.jpg",
-         link: "https://github.com/and-cuau/MissionSimulator"
+        {
+          title: "Full Stack Mission Simulator",
+          image: "./missionsimpic.jpg",
+          link: "https://github.com/and-cuau/MissionSimulator",
         },
         {
           title: "Full Stack X Clone",

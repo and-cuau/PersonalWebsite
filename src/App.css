@@ -25,9 +25,11 @@
 
 .test {
   /* border:2px solid red; */
+  margin-top: 11px;
 }
 
 nav {
+  /* border: 2px solid red; */
   position: fixed;
   top: 0;
   left: 50%;
@@ -79,7 +81,7 @@ p {
 }
 
 .link.right {
-  margin-right: 20px;
+  margin-right: 80px;
 }
 
 .link.link-white {
