@@ -24,7 +24,7 @@ export default function ProjectGrid({ set }) {
             {set[0].link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].link)}
+                onClick={() => handleClick(set[0].link)}
               >
                 Github
               </button>
@@ -33,7 +33,7 @@ export default function ProjectGrid({ set }) {
             {set[0].demo_link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].demo_link)}
+                onClick={() => handleClick(set[0].demo_link)}
               >
                 Demo
               </button>
@@ -56,7 +56,7 @@ export default function ProjectGrid({ set }) {
            {set[1].link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].link)}
+                onClick={() => handleClick(set[1].link)}
               >
                 Github
               </button>
@@ -65,7 +65,7 @@ export default function ProjectGrid({ set }) {
             {set[1].demo_link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].demo_link)}
+                onClick={() => handleClick(set[1].demo_link)}
               >
                 Demo
               </button>
@@ -88,7 +88,7 @@ export default function ProjectGrid({ set }) {
             {set[2].link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].link)}
+                onClick={() => handleClick(set[2].link)}
               >
                 Github
               </button>
@@ -97,7 +97,7 @@ export default function ProjectGrid({ set }) {
             {set[2].demo_link ? (
               <button
                 className="overlay-text"
-                onClick={() => handleClick(set[3].demo_link)}
+                onClick={() => handleClick(set[2].demo_link)}
               >
                 Demo
               </button>
