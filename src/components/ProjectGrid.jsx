@@ -21,12 +21,23 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[0].link)}
-            >
-              Github
-            </button>
+            {set[0].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[0].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
           </div>
         </div>
 
@@ -42,12 +53,23 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[1].link)}
-            >
-              Github
-            </button>
+           {set[1].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[1].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
           </div>
         </div>
 
@@ -63,13 +85,25 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[2].link)}
-            >
-              {" "}
-              Github
-            </button>
+            {set[2].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[2].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
+
+            
           </div>
         </div>
 
@@ -85,12 +119,25 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[3].link)}
-            >
-              Github
-            </button>
+
+            {set[3].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[3].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[3].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
+
           </div>
         </div>
 
@@ -106,12 +153,23 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[4].link)}
-            >
-              Github
-            </button>
+           {set[4].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[4].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[4].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[4].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
           </div>
         </div>
 
@@ -127,12 +185,23 @@ export default function ProjectGrid({ set }) {
           </div>
 
           <div className="overlay">
-            <button
-              className="overlay-text"
-              onClick={() => handleClick(set[5].link)}
-            >
-              Github
-            </button>
+            {set[5].link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[5].link)}
+              >
+                Github
+              </button>
+            ) : null}
+
+            {set[5].demo_link ? (
+              <button
+                className="overlay-text"
+                onClick={() => handleClick(set[5].demo_link)}
+              >
+                Demo
+              </button>
+            ) : null}
           </div>
         </div>
       </div>

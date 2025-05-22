@@ -26,9 +26,9 @@ export default function Home() {
                 </p>
               </div>
             </div>
-           
+
             <div className={styles.aboutmebody}>
-               <h2 className={styles.sectionheader}>About Me</h2>
+              <h2 className={styles.sectionheader}>About Me</h2>
               <p>
                 Hi! I'm Andre and I’m a recent grad who loves building things
                 that are both useful and well-crafted. I enjoy working across
