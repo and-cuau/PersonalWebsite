@@ -1,10 +1,14 @@
 # Personal Website
 
-This is a personal website designed to display my background and my projects.
+This is a personal website designed to display my background and projects.
+
+## Live Demo
+
+[https://and-cuau.github.io/PersonalWebsite/#/home](https://and-cuau.github.io/PersonalWebsite/#/home)
 
 ## Technologies Used
 
-- **Frontend**: React, HTML, CSS, Javascript
+- **Frontend**: React, HTML, CSS, JavaScript
 
 ## Features & Functionality
 
@@ -22,6 +26,3 @@ This is a personal website designed to display my background and my projects.
 
 - Plan to implement CSS media queries to fit pages to additional screen sizes.
 
-## Link to Project
-
-- **Live Demo**: [link to live version](https://and-cuau.github.io/PersonalWebsite/#/home)
