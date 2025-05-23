@@ -14,7 +14,7 @@ export default function Home() {
               <div>
                 <h3 className={styles.skills}>Languages: </h3>
                 <p className={styles.listofskills}>
-                  C++, Python, JavaScript, Typescript
+                  C++, Python, JavaScript, TypeScript
                 </p>
               </div>
 
