@@ -48,11 +48,12 @@
 
 .skillscontainer {
   /* border: 2px solid green; */
+   text-align: left;
   width: 358px;
 }
 
 .techcontainer {
-  text-align: left;
+
 }
 
 .aboutcontainer {
