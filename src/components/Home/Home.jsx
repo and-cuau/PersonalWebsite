@@ -8,6 +8,8 @@ export default function Home() {
         <div className={styles.textcontainer}>
           <div className={styles.spacer}></div>
 
+      
+
           <div className={styles.contentcontainer}>
             <div className={styles.skillscontainer}>
               <h2 className={styles.sectionheader}>Skills</h2>

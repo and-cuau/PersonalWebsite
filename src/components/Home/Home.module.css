@@ -14,6 +14,128 @@
 }
 
 .titlecard {
+  display: none;
+}
+/*  width: 506  left: -140px*/
+
+.imgandtextcontainer {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  /* margin: 0 auto; */
+}
+
+.textcontainer {
+  /* border: 2px solid blue; */
+  /* background-color: #242124; */
+}
+
+.contentcontainer {
+  /* border: 2px solid red; */
+  width: 100%;
+  text-align: right;
+  /* background-color: #242124; */
+}
+
+.aboutmebody {
+  padding: 0 30px;
+}
+
+.skillscontainer {
+  /* border: 2px solid green; */
+  text-align: left;
+  /* width: 270px; */
+  margin-left: auto;
+  padding: 0 30px;
+
+}
+
+.techcontainer {
+
+}
+
+.aboutcontainer {
+  /* border: 2px solid blue; */
+  width: 358px;
+}
+
+.sectionheader {
+  color: black;
+  text-align: center;
+}
+
+.skills {
+  color: black;
+  text-align: left;
+  display: inline;
+}
+
+.listofskills {
+  display: inline;
+}
+
+.spacer {
+  height:80px;
+  
+  /* border: 2px solid red; */
+  
+}
+
+.imgcontainer {
+  position: relative;
+}
+
+.links {
+  /* border: 2px solid red; */
+  margin-top: 11px;
+}
+
+.firstname {
+  /* i  edited margin-top. was not declared t first */
+  /* margin-left: 5px; */
+  margin-top: 26px;
+  margin-bottom: 0;
+  color: white;
+
+  /* text-align: left; */
+}
+
+.lastname {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: white;
+
+  /* color: black; */
+  /* text-align: left; */
+}
+
+.subtitle {
+  margin-top: 12px;
+}
+
+.card {
+  padding: 2em;
+}
+
+@media (min-width: 992px){
+
+  #root {
+  max-width: 1280px;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.link {
+  color: white;
+}
+
+.title {
+  color: white;
+}
+
+.titlecard {
+  display: block;
   background-color: #121212;
   /* background-color: black; */
   width: 344px;
@@ -50,6 +172,8 @@
   /* border: 2px solid green; */
    text-align: left;
   width: 358px;
+    margin-left: 0;
+    padding: 0;
 }
 
 .techcontainer {
@@ -59,6 +183,7 @@
 .aboutcontainer {
   border: 2px solid blue;
   width: 358px;
+   padding: 0;
 }
 
 .sectionheader {
@@ -114,4 +239,9 @@
 
 .card {
   padding: 2em;
+}
+
+
+
+
 }

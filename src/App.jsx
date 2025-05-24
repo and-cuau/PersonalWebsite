@@ -12,7 +12,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects";
+import Projects from "./components/Projects/Projects";
 import AboutMe from "./components/AboutMe";
 
 function AppContent() {
@@ -27,28 +27,30 @@ function AppContent() {
     <>
       <nav className="p-4 flex gap-4 bg-gray-100">
         <div className="linksflex">
+
+          <Link className = "navname"   to="/home">Andre Cuautle </Link>
           <Link
-            className={`link ${isWhiteLink ? "link-invisible" : "link-black"}`}
+            className={`link home ${isWhiteLink ? "link-invisible" : "link-black"}`}
             to="/home"
           >
             Home
           </Link>
-        </div>
-        <div className="test">
+
           <Link
-            className={`link right ${isWhiteLink ? "link-white" : "link-black"}`}
+            className={`link projects ${isWhiteLink ? "link-white" : "link-black"}`}
             to="/projects"
           >
             Projects
           </Link>
         </div>
-        <div className="links">
-          {/* <Link
-            className={`link ${isWhiteLink ? "link-white" : "link-black"}`}
-            to="/aboutme"
+        <div className="test">
+           <Link
+            className={`link home mobile ${isWhiteLink ? "link-invisible" : "link-black"}`}
+            to="/home"
           >
-            About
-          </Link> */}
+            Home
+          </Link>
+
         </div>
       </nav>
 
