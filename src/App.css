@@ -132,8 +132,8 @@ h2 {
 
 .projectgrid {
   /* border: 2px solid red; */
-  height: 257px;
-  width: 400px;
+  height: 251px;
+  width: 390px;
   margin: 0 auto;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
