@@ -54,6 +54,8 @@ nav {
   font-weight: bold;
   font-size: 23px;
   margin-left:10px;
+  width: 160px;
+  /* border: 2px solid red; */
 }
 
 .links {
