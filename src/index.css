@@ -100,7 +100,7 @@ button:focus-visible {
   }
 }
 
-@media (min-width: 992px){
+@media (min-width: 502px){
 
   :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
