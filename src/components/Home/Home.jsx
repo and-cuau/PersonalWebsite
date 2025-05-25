@@ -54,7 +54,7 @@ export default function Home() {
               <h1 className={styles.firstname}>ANDRE</h1>
               <h1 className={styles.lastname}>CUAUTLE</h1>
             </div>
-            <h2 className={styles.subtitle}>Full Stack SWE Portfolio</h2>
+            <h2 className={styles.subtitle}>SWE | Full-Stack • Frontend</h2>
           </div>
           <img src="./IMG_2203.jpg" alt="My Pic" />
         </div>
