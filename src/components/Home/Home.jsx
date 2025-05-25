@@ -56,12 +56,14 @@ export default function Home() {
             </div>
             <h2 className={styles.subtitle}>Full Stack SWE Portfolio</h2>
           </div>
-          <img src="./IMG_2203.jpg" alt="My Pic" style={{ width: "506px" }} />
+          <img src="./IMG_2203.jpg" alt="My Pic" />
         </div>
       </div>
     </div>
   );
 }
+
+// style={{ width: "506px" }}
 
 // import { useEffect, useRef, useState } from "react";
 // import styles from "./Home.module.css";
