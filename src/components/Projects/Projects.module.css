@@ -1,20 +1,20 @@
 .container {
   position: relative;
-  width: 500px;
+  width: 360px;
   height: 450px;
   margin: auto;
   border-radius: 10px;
+  /* border: 2px solid red; */
   /* overflow: hidden; */
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 }
 
 .arrow {
   position: absolute;
-  top: 25%;
+  top: 60%;
   transform: translateY(-50%);
   font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.3);
-  color: white;
   border: none;
   cursor: pointer;
   padding: 0 10px 10px 10px;
@@ -22,11 +22,11 @@
 }
 
 .left {
-  left: 25px;
+  left: 85px;
 }
 
 .right {
-  right: 25px;
+  right: 85px;
 }
 
 .image {
