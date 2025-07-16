@@ -33,8 +33,7 @@ export default function Home() {
               <p>
                 Hi! I'm Andre and I’m a recent grad who loves building things
                 that are both useful and well-crafted. I enjoy working across
-                the stack—from designing clean, modern frontends in React or
-                Svelte to developing robust backend systems with Node.js, SQL,
+                the stack—from designing clean, modern frontends in React to developing robust backend systems with Node.js, SQL,
                 and WebSockets.
               </p>
 
