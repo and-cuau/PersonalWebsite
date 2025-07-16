@@ -16,15 +16,14 @@ export default function Home() {
               <div>
                 <h3 className={styles.skills}>Languages: </h3>
                 <p className={styles.listofskills}>
-                  C++, Python, JavaScript, TypeScript
+                  JavaScript, TypeScript, C++, Python, Java
                 </p>
               </div>
 
               <div className={styles.techcontainer}>
                 <h3 className={styles.skills}>Technologies: </h3>
                 <p className={styles.listofskills}>
-                  React, HTML, CSS, Node.js, Express.js, JWT, Websocket, JSON,
-                  SQLite, Git, Linux
+                  React, HTML/CSS, RESTful APIs, Node.js, Express.js, PostgreSQL, Docker, Kubernetes, Git, Linux
                 </p>
               </div>
             </div>
