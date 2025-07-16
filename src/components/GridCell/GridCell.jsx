@@ -6,10 +6,10 @@ function GridCell({index, set}) {
   return (
     <div className="cell">
           <div
-            className="imgcontainer xclone"
+            className="imgcontainer"
             style={{
-             backgroundImage: `url(${set?.[index]?.image || ''})`
-
+             backgroundImage: `url(${set?.[index]?.image || ''})`,
+            //  backgroundColor: 'black'
             }}
           ></div>
           <div className="cellcard">
